@@ -1,0 +1,100 @@
+/* TODO: Add responsive styles here... */
+
+@media (max-width:600px) {
+    .navbar-brand {
+        align-self: center;
+        left: 10em;
+        top: -1em;
+    }
+
+    .container-fluid.hero>img {
+        display: none;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        align-items: center;
+    }
+    
+    .hero-btns.service-btn a{
+        width: 60%;
+        padding: 1.6em 0;
+    
+    }
+
+    .hero-btns a {
+        text-align: center;
+        width: 17em;      
+    }
+
+    .service-box {
+        text-align: left;
+        font-weight: bold;
+        
+    }
+
+    .service-box p {
+        line-height: 2;
+        margin-bottom: 10em;
+    }
+
+    .row h2 {
+        text-align: center;
+    }
+
+    .hero-btns {
+        margin-bottom: 80px;
+    }
+
+    .col-12.col-sm-6.col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .col-12.col-sm-12.col-lg-6 {
+        margin-bottom: 7em;
+        text-align: center;
+    }
+
+    .col-12.col-sm-12.col-lg-6 p {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: #334785;
+    }
+
+    .about {
+        margin-bottom: 50px;
+    }
+    
+    .col-12 {
+        text-align: center;
+    }
+
+    .col-12 h5 {
+        font-size: 1.7em;
+    }
+
+    .hero-btns.contact-btn {
+        display: none;
+    }
+
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row .col-12 h3 {
+        font-size: 4em;
+        line-height: 1;
+    }
+}
